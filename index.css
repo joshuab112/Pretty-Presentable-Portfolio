@@ -1,0 +1,147 @@
+html, body {
+    height: auto;
+    background-color: #103D59;
+    overflow-x: hidden;
+}
+.top_menu {
+    text-align: right;
+    display: inline-block;
+    width: 97vw;
+    height: 8vh;
+    font-size: 1.25em;
+}
+#home_page_link_image {
+    position: fixed;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.top_menu a {
+    text-decoration: none;
+    margin: 0 auto;
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+    color: #0ECEA2;
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+.top_menu a:hover {
+    color: #add8e4;
+}
+.left_sidebar {
+    height: 100%;
+    position: fixed;
+    margin-right: 15px;
+    right: 0;
+    top: 50%;
+}
+.left_sidebar img {
+    display: block;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+}
+#vertical_line {
+    border-left: 2px solid #add8e4;
+    height: 100vh;
+    margin-left: 50%;
+
+}
+.intro_to_joshua {
+    position: relative;
+    display: block;
+    justify-content: space-evenly;
+    width: 810px;
+    height: 80%;
+    margin: 50px 0px 100px 60px;
+}
+#title_prefix {
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+    font-size: medium;
+    color: #0ECEA2;
+    font-family: 'Noto Sans Mono', sans-serif;
+
+}
+.main_title {
+    font-family: 'Ubuntu', sans-serif;
+}
+#title {
+    color: #add8e4;
+    font-size: 4.5em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#sub_title {
+    color: rgba(169, 218, 231, 0.7);
+    font-size: 2.5em;
+    margin-top: 5px; 
+    font-family: 'Ubuntu', sans-serif;
+}
+#description {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+.about_me {
+    position: relative;
+    display: block;
+    width: 80vw;
+}
+.about_me_header {
+    display: inline-block;
+    width: 100%;
+    margin: 50px 0px 50px 60px;
+}
+#about_me_header_horizontal_line {
+    display: inline-block;
+    margin-bottom: 7px;
+    width: 19%;
+    border-top: 1.5px solid #add8e4;
+    color: #add8e4;
+}
+.about_me_header_links {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+    color: #0ECEA2;
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+.about_me_header_links a {
+    text-decoration: none;
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+    color: #0ECEA2;
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+.about_me_header_links a:hover {
+    color: #add8e4;
+}
+#about_me_header_title {
+    display: inline;
+    color: #add8e4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    width: 18%;
+}
+.about_me_details {
+    width: 80vw;
+    margin: 50px 0px 50px 60px;
+}
+.about_me_details img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.about_me_details p {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+}
+.about_me_details h3 {
+    font-size: 1.25em;
+    color: rgba(169, 218, 231, 0.7);
+    font-family: 'Ubuntu', sans-serif;
+}
+#copyright {
+    color: #add8e4;
+    font-family: 'Ubuntu', sans-serif;
+}
